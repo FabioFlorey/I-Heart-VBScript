@@ -47,7 +47,7 @@ This project requires the following prerequisites:
 The project has/will have the following features:
 
 - [x] **Import Local Functions** : Import functions from other VBScript files into your project.
-- [x] **Import External Functions** : Import VBSCript directly from the Web (e.g. from a GitHub repository).
+- [ ] **Import External Functions** : Import VBSCript directly from the Web (e.g. from a GitHub repository).
 - [x] **Registry Operations** : Read a Value from Registry with a single function call.
 - [ ] **Useful Functions** : A collection of useful functions. We will add more as we go!
 
@@ -93,10 +93,10 @@ Iif(Contains("VBScript","VB"), "Code runs", "Code doesn't run")
 - **Handling Exceptions** : you can wrap your code in an exception handler to catch any exceptions that may occur within your code and create custom handling for them, by wrapping your subroutine in an `Exception_Wrapper` block with the following syntax:
 
 ```vbscript
-Call Exception_Wrapper("My_Subroutine", "Custom_Exception")
-Call Exception_Wrapper("Another_Subroutine", "New_Custom_Exception")
+Call Exception_Wrapper("My_Subroutine", "SubroutineHandler")
+Call Exception_Wrapper("Another_Subroutine", "Another_Handler")
 
-Sub Exception_Wrapper(Subroutine, Exception)
+Sub HandleException(Subroutine, Exception)
     '    Wrap a Subroutine inside a given Exception.
     On Error Resume Next
     Dim Num
