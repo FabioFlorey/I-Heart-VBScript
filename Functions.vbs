@@ -5,10 +5,10 @@ Option Explicit
 '      Fabio Craig Wimmer Florey
 '
 ' Reviewed By:                                                  Last Review:
-'      Fabio Craig Wimmer Florey                                    2021-10-17
+'      Fabio Craig Wimmer Florey                                    2022-03-29
 '
 ' Description:
-'      Short Description of the code.
+'      Useful function for general purposes.
 
 Randomize
 
