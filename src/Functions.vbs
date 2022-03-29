@@ -120,31 +120,16 @@ Function TrailingSubElement(Element, SubElement, Size):
                                 SubElement), Element)
 End Function
 
+
 Sub WebImport(URL)
     ' Import the VBS code at a given URL.
     ' and run it globally pushing the functions into the Main
-    Set FSO = CreateObject("Scripting.FileSystemObject")
+    Dim Request    
     Set Request = createobject ("MSXML2.ServerXMLHTTP")
-    FileName = "temp.vbs"
-    
     Request.Open "GET", URL, false
     Request.Send
-    TextResponse = Request.responSetext
-    If FSO.FileExists(FileName) Then
-    FSO.DeleteFile FileName, True
-    End If
-    Set WriteVBFile = FSO.CreateTextFile(FileName, True)
-    WriteVBFile.Write TextResponse
-    WriteVBFile.Close
-    Set WriteVBFile = Nothing
-    Set ReadVBFile = FSO.OpenTextFile(FileName, 1)
-    Script = ReadVBFile.ReadAll
-    ReadVBFile.Close
+    ExecuteGlobal Request.ResponseText
     Set Request = Nothing
-    Set ReadVBFile = Nothing
-    ExecuteGlobal Script    
-    FSO.DeleteFile Filename, True
-    Set FSO = Nothing
 End Sub
 
     
