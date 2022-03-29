@@ -141,7 +141,7 @@ This project is licensed under the [GNU GPL v3](https://www.gnu.org/licenses/gpl
 If you have any questions, please feel free to contact me, clicking on the link below.
 <div align="center">
     <a href="mailto:fabioflorey@hackermail.com?subject=I%F0%9F%92%99VBSript"><kbd>
-    <img src="https://avatars.githubusercontent.com/u/87818390?s=96&v=4" height="80" alt=""/></kbd><br>
+    <img src="https://avatars.githubusercontent.com/u/93403866?s=96&v=4" height="80" alt=""/></kbd><br>
     <sub><b>Fabio Craig Wimmer Florey</b></sub><br>
     <sup><b>Author</b></sup>
 </div>
