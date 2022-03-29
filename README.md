@@ -114,7 +114,7 @@ End Sub
 - **Import Dependencies** : You can import function and subroutines from other vbscript files with the following syntax:
 
 ```vbscript
-Import "Functions"
+Import "src/Functions"
 
 MsgBox Contains("the brown fox jumps over the lazy dog", "fox")
 
