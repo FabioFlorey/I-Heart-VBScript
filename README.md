@@ -28,7 +28,7 @@
 
 ## Introduction
 ### Project Description
-I 💙 VBScript is a project that aims to ease the process of creating VBScript code and refine some overly complex VBScript syntax with easier to digest functions and subroutines. Despite its constant hate and its age, VBScript is still a powerful language which is still used to this day by many in many applications. A lot of these applications are rid with old outdated VBScript code that can't handle exceptions and lacks support of modern features. Many VBScript processes are abandonware but some are still in use, even in major companies, but they are very hard to refactor as many don't feel confident to touch. This project aims to solve these problems by providing a set of functions and subroutines that can be used to create VBScript code.
+I 💙 VBScript is a project that aims to ease the process of creating VBScript code and refine some overly complex VBScript syntax with easier to digest functions and subroutines. Despite its constant hate and its age, VBScript is still a powerful language which is still used to this day by many in many applications. A lot of these applications are rid with old outdated VBScript code that can't handle exceptions and lacks support of modern features. Many VBScript processes are abandonware but some are still in use, even in major companies, but they are very hard to refactor as many don't feel confident to touch. This project aims to solve these problems by providing a useful set of functions and subroutines and an easy way to handle common pains.
 
 ### Project Goals
 The project has the following goals:
