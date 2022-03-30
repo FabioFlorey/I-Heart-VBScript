@@ -57,7 +57,7 @@ I'm working on the following improvements:
 - **Fully Type-Independent Contains** : Allow for _real_ type-independent contains.
 - **RW Registry** : Write a Value to Registry with a single function call.
 - **Auto-HTA** : Automatically create an HTA file for you with basic functionalities.
-- **Security** : Add Security to the project, many functions and improvements are hugely insecure and can let insecure code run without scrutiny. E.g. `ImportFromWeb` could run malicious code on your machine if you don't know what you're doing.
+- **Security** : Add Security to the project, many functions and improvements are hugely insecure and can let insecure code run without scrutiny. E.g. `WebImport` could run malicious code on your machine if you don't know what you're doing.
 - **Refactoring the code** : Generalize the code to make it more readable and maintainable.
 
 ## Installation and Usage
