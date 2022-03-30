@@ -84,10 +84,10 @@ The code for the project is written in the following languages:
 
 If you want to see the codebase in a more detailed way, some snippets of code are provided below:
 
-- **Updated Functions** : you can use the ternary operator to simplify if-then-else statements in VBScript with Iif or check whether a variable is contained in another variable without care with a single line of code, and many more functions!
+- **Updated Functions** : you can use the ternary operator to simplify if-then-else statements in VBScript with IIf or check whether a variable is contained in another variable without care with a single line of code, and many more functions!
   
 ```vbscript
-Iif(Contains("VBScript","VB"), "Code runs", "Code doesn't run")
+IIf(Contains("VBScript","VB"), "Code runs", "Code doesn't run")
 ```
 
 - **Handling Exceptions** : you can wrap your code in an exception handler to catch any exceptions that may occur within your code and create custom handling for them, by wrapping your subroutine in an `Exception_Wrapper` block with the following syntax:
