@@ -80,7 +80,7 @@ If you want to contribute to the code, please read the [Contributing](CONTRIBUTI
 
 The code for the project is written in the following languages:
 
-- **[VBScript](https://en.wikipedia.org/wiki/VBScript)** : The codebase if fully written in VBScript.
+- **[VBScript](https://en.wikipedia.org/wiki/VBScript)** : The codebase is fully written in VBScript.
 
 If you want to see the codebase in a more detailed way, some snippets of code are provided below:
 
